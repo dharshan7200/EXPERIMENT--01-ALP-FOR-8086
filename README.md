@@ -106,8 +106,8 @@ RET
 ````
 
 
-## Output (aritHmetic operations):
-<img widtH="1896" HeigHt="1147" alt="image" src="Https://gitHub.com/user-attacHments/assets/2c7c9a5c-1b99-43b4-9699-98b876a1460c" />
+## Output (arithmetic operations):
+<img width="1057" height="647" alt="image" src="https://github.com/user-attachments/assets/f4ab94fd-1640-4bab-b85d-9711f3f98e8c" />
 
 
 
@@ -138,12 +138,12 @@ ret
 
 
 ## Output (logical operations):
-<img widtH="1913" HeigHt="1143" alt="image" src="Https://gitHub.com/user-attacHments/assets/7a9d5cd8-3162-451a-bfec-82a71f5fddf0" />
+<img width="1063" height="649" alt="image" src="https://github.com/user-attachments/assets/a3eac030-7e20-4480-9c0a-9daaf31c6988" />
 
 
 
 ## Result :
-THus tHe program for ALP on fundamental aritHmetic and logical operations using emu8086 was executed successfully.
+THus the program for ALP on fundamental arithmetic and logical operations using emu8086 was executed successfully.
 
 
 

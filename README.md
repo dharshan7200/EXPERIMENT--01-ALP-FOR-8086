@@ -3,8 +3,10 @@
 ## Roll no : 212223230045
 ## Date of experiment : 22.04.26
 
-## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
-## Components required: 8086  emulator 
+## Aim: 
+To Write and execute ALP on fundamental arithmetic and logical operations
+## Components required: 
+8086  emulator 
 ## Theory 
 Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as EMU8086, is an emulator of the program 8086 microprocessor. It is developed with a built-in 8086 assembler. This application is able to run programs on both PC desktops and laptops. This tool is primarily designed to copy or emulate hardware. These include the memory of a program, CPU, RAM, input and output devices, and even the display screen. There are instructions to follow when using this emulator. It can be executed into one of the two ways: backward or forward. There are also examples of assembly source code included. With this, it allows the programming of assembly language, reverse engineering, hardware architecture, and creating miniature operating system (OS). The user interface of 8086 Microprocessor Emulator is simple and easy to manage. There are five major buttons with icons and titles included. These are “Load”, “Reload”, “Step Back”, “Single Step”, and “Run”. Above those buttons is the menu that includes “File”, “View”, “Virtual Devices”, “Virtual Drive”, and “Help”. Below the buttons is a series of choices that are usually in numbers and codes. At the leftmost part is an area called “Registers” with an indication of either “H” or “L”. The other side is divided into two, which enables users to manually reset, debug, flag, etc. What is 8086 emulator emu8086 is an emulator of Intel 8086 (AMD compatible) microprocessor with integrated 8086 assembler and tutorials for beginners. Emulator runs programs like the real microprocessor in step-by-step mode. it shows registers, memory, stack, variables and flags.
 
@@ -14,7 +16,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 2.	  Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
  
  
-3.		write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
+3.	write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
 
 4.	 Compile the program and check for the errors 
 5.	Run (once there is no syntax error) 
@@ -72,97 +74,77 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 ## Programs for arithmetic  operations
+```
+ORG 100h      
+MOV Ax, 4001h;  
+MOV Bx, 2032h;   
+add  Ax, Bx;   
+MOV [2000h], Ax; 
+ 
 
-## Addition  of 8 bit ALP 
-```
-Mov AL,74H
-MOV BL,69H
-ADD AL,BL
-HLT
-```
-## Output  
- ![image](https://github.com/user-attachments/assets/09803bdd-7411-49a0-a19a-849f49655b0a)
+mov ax,[1000h];
+mov bx,[1002h];
+sub ax,bx;
+mov [2002h],ax;
 
-## Subtraction   of 8 bit numbers  ALP 
-```
-Mov AL,74H
-MOV BL,69H
-SUB AL,BL
-HLT
-```
-## Output  
-![image](https://github.com/user-attachments/assets/929b7249-2bda-49cc-b7bd-691778701d57)
 
-## Multiplication alp 
+mov bx,2222h;
+mov ax,bx;
+mov cx,11h;
+mov dx,cx;
+mul dx;
+mov [2004h],ax;  
+
+
+mov bx,1007h;
+mov ax,[bx];
+mov cx,85h;
+div cx;
+mov [2006h],ax;
+ 
+RET
+````
+
+
+## Output for arithmetic operations:
+<img width="1896" height="1147" alt="image" src="https://github.com/user-attachments/assets/2c7c9a5c-1b99-43b4-9699-98b876a1460c" />
+
+
+
+## program for logical operations:
 ```
 org 100h
-Mov AL,74H
-MOV BL,69H
-MUL BL
-HLT
+MOV AX,1236H;
+MOV BX,1238H;
+AND AX,BX;
+MOV [2000H],AX;
+NOT AX;
+
+
+MOV AX,2022H;
+MOV BX,2024H;
+OR AX,BX;
+MOV [2002H],AX;
+NOT AX;
+
+MOV AX,014H;
+MOV BX,08H;
+XOR AX,BX;
+MOV [2006H],AX;  
+NOT AX;
+
 ret
 ```
- ## Output  
-![image](https://github.com/user-attachments/assets/6e1c7b85-a922-4e37-8a90-ae6c2f4882e0)
 
 
-## Division alp 
-```
-MOV AL,68H
-MOV BL,18H
-DIV BL
-HLT
-```
-## Output  
-![image](https://github.com/user-attachments/assets/bc8b241c-c2dc-4956-b257-8f9d7ffa0d7a)
+## Output for logical operations:
+<img width="1913" height="1143" alt="image" src="https://github.com/user-attachments/assets/7a9d5cd8-3162-451a-bfec-82a71f5fddf0" />
 
-## And of 8 bit numbers ALP
-```assembly
-MOV AL,33H
-MOV BL,44H
-AND AL,BL
-HLT
-```
-## Output
-![image](https://github.com/user-attachments/assets/1f70ed7f-a214-4cb8-999c-adcd31784382)
-
-
-## OR of 8 bit numbers ALP
-```assembly
-MOV AL,45H
-MOV BL,66H
-OR AL,BL
-HLT
-```
-## Output
-![image](https://github.com/user-attachments/assets/a29500ad-06ec-44d4-bde9-f5c762d42f20)
-
-
-## NOT of 8 bit number ALP
-```assembly
-MOV AL,65H
-NOT AL
-HLT
-```
-## Output
-![image](https://github.com/user-attachments/assets/f2363e83-9f02-4a06-8754-e2a5f5b9cd97)
-
-
-## XOR of 8 bit number ALP
-```assembly
-MOV AL,66H
-MOV BL,77H
-XOR AL,BL
-HLT
-```
-
-## Output
-![image](https://github.com/user-attachments/assets/ec2e9fe5-3ebe-42c7-a9be-54a8a69e4f91)
 
 
 ## Result :
+Thus the program for ALP on fundamental arithmetic and logical operations using emu8086 was executed successfully.
 
-The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
 
 
 

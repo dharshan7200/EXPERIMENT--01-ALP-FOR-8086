@@ -73,7 +73,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-## Programs for arithmetic  operations
+## Programs (arithmetic  operation)s
 ```
 ORG 100h      
 MOV Ax, 4001h;  
@@ -106,12 +106,12 @@ RET
 ````
 
 
-## Output for arithmetic operations:
+## Output (arithmetic operations):
 <img width="1896" height="1147" alt="image" src="https://github.com/user-attachments/assets/2c7c9a5c-1b99-43b4-9699-98b876a1460c" />
 
 
 
-## program for logical operations:
+## Program (logical operations):
 ```
 org 100h
 MOV AX,1236H;
@@ -137,7 +137,7 @@ ret
 ```
 
 
-## Output for logical operations:
+## Output (logical operations):
 <img width="1913" height="1143" alt="image" src="https://github.com/user-attachments/assets/7a9d5cd8-3162-451a-bfec-82a71f5fddf0" />
 
 

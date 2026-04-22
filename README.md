@@ -135,7 +135,7 @@ OR AL,BL
 HLT
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/f2363e83-9f02-4a06-8754-e2a5f5b9cd97)
+![image](https://github.com/user-attachments/assets/a29500ad-06ec-44d4-bde9-f5c762d42f20)
 
 
 ## NOT of 8 bit number ALP
@@ -145,7 +145,7 @@ NOT AL
 HLT
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/a29500ad-06ec-44d4-bde9-f5c762d42f20)
+![image](https://github.com/user-attachments/assets/f2363e83-9f02-4a06-8754-e2a5f5b9cd97)
 
 
 ## XOR of 8 bit number ALP

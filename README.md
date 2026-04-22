@@ -1,5 +1,5 @@
 # EXPERIMENT--01-ALP-FOR-8086
-## Name : Darshan D
+## Name : Dharshan D
 ## Roll no : 212223230045
 ## Date of experiment : 22.04.26
 
